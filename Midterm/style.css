@@ -1,5 +1,7 @@
 body {
-    
+    border-width: 3px;
+    border-style: solid;
+    border-color: purple;
     background-color: aqua;
 }
 p{
@@ -7,6 +9,7 @@ p{
     
 }
 h1{
-    color: red
-    
+   
+    color: purple
+
 }
