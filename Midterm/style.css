@@ -1,16 +1,75 @@
 body {
-    border-width: 3px;
+    border-width: 40px;
+    font-family: 'Roboto', sans-serif;
     border-style: solid;
     border-color: purple;
     background-color: aqua;
 }
 p{
-    font-family: 'Roboto', sans-serif;
-    color: red
+    color: forestgreen;
+    padding-left: 9px;
     
 }
-h1{
-   
-    color: purple
+ul{
+    font-family: 'ZCOOL KuaiLe', cursive;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: orangered;
+    
+}
 
+a {
+    color: deeppink;
+}
+
+li a {
+    float: left;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-right: 1px solid forestgreen;
+}
+
+li a:hover {
+    background-color: forestgreen;
+    color: black;
+    border-right: 1px solid orangered;
+    border-left: 1px solid orangered;
+}
+
+li a:active {
+    background-color: orangered;
+    color: white;
+}
+
+
+h1{
+   font-family: 'Faster One', cursive;
+    color: purple;
+    text-align: center;
+    font-size: 50px
+
+}
+h2{
+    color: orangered;
+    text-shadow: 2px 2px 3px forestgreen;
+    padding-left: 9px;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 30px;
+}
+
+footer{
+    background-color: orangered;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
